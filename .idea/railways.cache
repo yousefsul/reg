@@ -1,0 +1,5 @@
+ Prefix Verb URI Pattern        Controller#Action
+   root GET  /                  home#index
+sign_up GET  /sign_up(.:format) registrations#new
+        POST /sign_up(.:format) registrations#create
+sign_in POST /sign_in(.:format) sessions#create

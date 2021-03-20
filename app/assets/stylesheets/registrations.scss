@@ -1,0 +1,47 @@
+.mainContainer{
+  width: 50vw;
+  margin: auto;
+}
+
+.signupForm{
+  margin: auto;
+  width: 25vw;
+  background-color: #222831;
+  text-align: center;
+  padding: 5vw;
+}
+
+.signupForm input{
+  font-weight: bold;
+  background-color: white;
+  width: 25vw;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.signupForm input[type="submit"]{
+  width: 10vw;
+  text-align: center;
+  background-color: #B00100;
+  color: white;
+}
+
+::placeholder{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.field label{
+  margin: auto;
+  display: inline-block;
+  width: 5vw;
+  color: white;
+  font-weight: bold;
+}
+
+#error_explanation{
+  color: white;
+}
